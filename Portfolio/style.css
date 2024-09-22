@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+h1{
+    color:#eaeaea;
+    align-content: center;
+}
+h2, h3, h4 {
+    color: #333;
+}
+
+#navbar {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+#navbar h1 {
+    margin: 0;
+}
+
+#navbar div {
+    margin-top: 10px;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#navbar a :hover {
+    color: lightgrey;
+}
+
+.about, .education-section, #projects, #contact, #skills{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about img {
+    width: 60%;
+    max-width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+.education-timeline {
+    margin-top: 20px;
+}
+
+.education-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.education-item:last-child {
+    border: none;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    }
+.project img {
+    width: 40%
+}
+
+/* Skills section */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    background: #e4e4e4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px; }
+
+#contact {
+    padding: 20px;
+    background: #eaeaea;
+    border-radius: 5px;
+}
+
+#contact label {
+    margin-top: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
